@@ -88,6 +88,7 @@ h1 {
   font-size: 0.9rem;
   color: #f6f7f9;
   background-color: black;
+  cursor: pointer;
 }
 
 #output-div {
@@ -111,4 +112,18 @@ h1 {
   #container {
     margin-top: 0;
   }
+}
+
+.happy {
+  background-color: transparent !important;
+  background-image: url("./images/confetti.gif");
+  background-position: center;
+  background-size: cover;
+}
+
+.sad {
+  background-color: transparent !important;
+  background-image: url("./images/rain.gif");
+  background-position: center;
+  background-size: cover;
 }
